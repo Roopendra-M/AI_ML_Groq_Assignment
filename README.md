@@ -74,8 +74,11 @@ print(user_info)
 ---
 
 ## How to Run
-1. Open the Google Colab notebook: `Groq_Assignment.ipynb`  
+1. Open the Google Colab notebook: [Groq_Assignment.ipynb](https://colab.research.google.com/drive/1OtvPCz43R_sFPRpdd8PjeIWkxQbStgJD?usp=sharing)  
 2. Set your Groq API key:
+```python
+os.environ["GROQ_API_KEY"] = "YOUR_GROQ_API_KEY"
+
 ```python
 os.environ["GROQ_API_KEY"] = "YOUR_GROQ_API_KEY"
 ```
